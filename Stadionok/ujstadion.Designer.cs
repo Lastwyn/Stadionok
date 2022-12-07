@@ -1,0 +1,187 @@
+﻿namespace Stadionok
+{
+    partial class ujstadion
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label6 = new System.Windows.Forms.Label();
+            this.button_uj = new System.Windows.Forms.Button();
+            this.textBox_varos = new System.Windows.Forms.TextBox();
+            this.textBox_nev = new System.Windows.Forms.TextBox();
+            this.textBox_ferohely = new System.Windows.Forms.TextBox();
+            this.textBox_epult = new System.Windows.Forms.TextBox();
+            this.textBox_id = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(182, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(181, 24);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Új stadion bevitele";
+            // 
+            // button_uj
+            // 
+            this.button_uj.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button_uj.Location = new System.Drawing.Point(186, 236);
+            this.button_uj.Name = "button_uj";
+            this.button_uj.Size = new System.Drawing.Size(177, 41);
+            this.button_uj.TabIndex = 6;
+            this.button_uj.Text = "Bevisz";
+            this.button_uj.UseVisualStyleBackColor = false;
+            this.button_uj.Click += new System.EventHandler(this.button_uj_Click);
+            // 
+            // textBox_varos
+            // 
+            this.textBox_varos.Location = new System.Drawing.Point(366, 97);
+            this.textBox_varos.Name = "textBox_varos";
+            this.textBox_varos.Size = new System.Drawing.Size(126, 20);
+            this.textBox_varos.TabIndex = 32;
+            // 
+            // textBox_nev
+            // 
+            this.textBox_nev.Location = new System.Drawing.Point(112, 122);
+            this.textBox_nev.Name = "textBox_nev";
+            this.textBox_nev.Size = new System.Drawing.Size(124, 20);
+            this.textBox_nev.TabIndex = 31;
+            // 
+            // textBox_ferohely
+            // 
+            this.textBox_ferohely.Location = new System.Drawing.Point(113, 171);
+            this.textBox_ferohely.Name = "textBox_ferohely";
+            this.textBox_ferohely.Size = new System.Drawing.Size(123, 20);
+            this.textBox_ferohely.TabIndex = 29;
+            // 
+            // textBox_epult
+            // 
+            this.textBox_epult.Location = new System.Drawing.Point(366, 152);
+            this.textBox_epult.Name = "textBox_epult";
+            this.textBox_epult.Size = new System.Drawing.Size(126, 20);
+            this.textBox_epult.TabIndex = 30;
+            // 
+            // textBox_id
+            // 
+            this.textBox_id.Location = new System.Drawing.Point(113, 75);
+            this.textBox_id.Name = "textBox_id";
+            this.textBox_id.ReadOnly = true;
+            this.textBox_id.Size = new System.Drawing.Size(79, 20);
+            this.textBox_id.TabIndex = 28;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(292, 155);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 13);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Amikor épült:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(279, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 13);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Város ahol van:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(56, 171);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Férőhely:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(33, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Stadion neve:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(87, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 13);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Id:";
+            // 
+            // ujstadion
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(522, 314);
+            this.Controls.Add(this.textBox_varos);
+            this.Controls.Add(this.textBox_nev);
+            this.Controls.Add(this.textBox_ferohely);
+            this.Controls.Add(this.textBox_epult);
+            this.Controls.Add(this.textBox_id);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button_uj);
+            this.Controls.Add(this.label6);
+            this.Name = "ujstadion";
+            this.Text = "Új stadion bevitele";
+            this.Load += new System.EventHandler(this.ujstadion_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button_uj;
+        public System.Windows.Forms.TextBox textBox_varos;
+        public System.Windows.Forms.TextBox textBox_nev;
+        public System.Windows.Forms.TextBox textBox_ferohely;
+        public System.Windows.Forms.TextBox textBox_epult;
+        public System.Windows.Forms.TextBox textBox_id;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label1;
+    }
+}
